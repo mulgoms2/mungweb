@@ -1,3 +1,45 @@
-.item {
-  color: violet;
+.nav {
+  height: 70px;
+  border-bottom: 1px solid black;
+  display: flex;
+  align-items: center;
+}
+
+.nav-item-right {
+  display: flex;
+  margin-left: auto;
+}
+
+.nav-item {
+  margin-left: 10px;
+}
+
+.title {
+  text-align: center;
+  font-size: 3.5rem;
+  font-weight: bold;
+}
+
+.subtitle {
+  text-align: center;
+  font-size: 1.25rem;
+  font-weight: 300;
+}
+
+.main {
+  width: 800px;
+  margin: 0 auto;
+  margin-top: 60px;
+}
+
+.price-item {
+  width: 300px;
+  height: 300px;
+  border: 1px solid rgb(68, 66, 66);
+  margin: 20px;
+  border-radius: 4px;
+}
+
+.prices {
+  display: flex;
 }
