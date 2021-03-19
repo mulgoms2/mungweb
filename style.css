@@ -67,6 +67,16 @@ a {
   font-size: 24px;
 }
 
+.player {
+  display: flex;
+  justify-content: center;
+  padding-top: 20px;
+}
+
+.player iframe {
+  border-radius: 20px;
+}
+
 @media screen and (max-width: 768px) {
   .navbar {
     flex-direction: column;
