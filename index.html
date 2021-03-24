@@ -5,11 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" />
     <link
-      href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Roboto&family=Source+Sans+Pro&display=swap"
       rel="stylesheet"
     />
     <title>MungloveDDyum</title>
@@ -43,17 +40,125 @@
 
       <a href="#" class="navbar__toogle"><i class="fas fa-bars"></i></a>
     </nav>
+
+    <!--Section Search bar-->
+    <header>
+      <div class="logo">
+        <i class="fab fa-youtube"></i>
+        <span class="title">MungTube</span>
+      </div>
+      <div class="icons">
+        <i class="fas fa-search"></i>
+        <i class="fas fa-ellipsis-v"></i>
+      </div>
+    </header>
+
+    <!--Section video player-->
     <section class="player">
-      <iframe
-        width="560"
-        height="315"
-        src="https://www.youtube.com/embed/Gvq4bawFRiU"
-        frameborder="0"
-        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-        allowfullscreen
-      ></iframe>
+      <video controls width="250" src="source/video/SNOW.mp4"></video>
     </section>
-    <section class="info"></section>
-    <section class="upnew"></section>
+
+    <!--Section Info And Upnext-->
+    <div class="infoAndupnext">
+      <!--section Info-->
+      <section class="info">
+        <!--metadata-->
+        <div class="metadata">
+          <ul class="hashtags">
+            <li>#DDyum</li>
+            <li>#love</li>
+            <li>#you</li>
+          </ul>
+          <div class="titlaAndbutton">
+            <span class="title clamp">
+              헤... 이거 보여주려고 멍그로 끌었따!! 휴우우.. 오늘하루도 고생
+              많았어요 내옹아! 집안일은 멍도비에게 맡기라구요~
+            </span>
+            <button class="morebtn"><i class="fas fa-caret-down"></i></button>
+          </div>
+          <span class="views">1M views 1 day ago</span>
+        </div>
+        <!--actions-->
+        <ul class="actions">
+          <li>
+            <button>
+              <i class="active fas fa-thumbs-up"></i><span>97만</span>
+            </button>
+          </li>
+          <li>
+            <button><i class="fas fa-thumbs-down"></i><span>0</span></button>
+          </li>
+          <li>
+            <button><i class="fas fa-share"></i><span>Share</span></button>
+          </li>
+          <li>
+            <button><i class="fas fa-plus"></i><span>Save</span></button>
+          </li>
+          <li>
+            <button>
+              <i class="fab fa-font-awesome-flag"></i><span>Report</span>
+            </button>
+          </li>
+        </ul>
+        <!--channel-->
+        <div class="channel">
+          <div class="metadata">
+            <img src="source/img/IMG_0573.JPG" alt="" />
+            <div class="info">
+              <span class="name">DDyumLover</span>
+              <span class="subscriber">1M subcribers</span>
+            </div>
+          </div>
+          <button class="subscribe">subscribe</button>
+        </div>
+      </section>
+
+      <!--section Upnext-->
+      <section class="upnext">
+        <span class="title">Up next </span>
+        <ul>
+          <li class="item">
+            <div class="img">
+              <img src="source/img/IMG_5220.JPG" alt="" />
+            </div>
+            <div class="info">
+              <span class="title"
+                >썸네일이 너무 마음에 드는 것 같다. 우리 냐옹이는 양을
+                무서워하더라 ㅎ
+              </span>
+              <span class="name">DDyumLover</span>
+              <span class="views">102K views</span>
+            </div>
+            <button class="morebtn"><i class="fas fa-ellipsis-v"></i></button>
+          </li>
+          <li class="item">
+            <div class="img">
+              <img src="source/img/IMG_7825.JPG" alt="" />
+            </div>
+            <div class="info">
+              <span class="title">
+                고기앞에서는 날카로움을 포기하는 냐옹이 입니다!! 동그라미 ON.
+              </span>
+              <span class="name">DDyumLover</span>
+              <span class="views">42K views</span>
+            </div>
+            <button class="morebtn"><i class="fas fa-ellipsis-v"></i></button>
+          </li>
+          <li class="item">
+            <div class="img">
+              <img src="source/img/IMG_0658.JPG" alt="" />
+            </div>
+            <div class="info">
+              <span class="title">
+                승미랑 함께하는 여행은 언제나 따사롭고 사랑스러워요ㅠㅠ
+              </span>
+              <span class="name">DDyumLover </span>
+              <span class="views">27K views</span>
+            </div>
+            <button class="morebtn"><i class="fas fa-ellipsis-v"></i></button>
+          </li>
+        </ul>
+      </section>
+    </div>
   </body>
 </html>
